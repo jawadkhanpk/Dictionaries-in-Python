@@ -8,3 +8,18 @@ print(programming_dictionaries)
 programming_dictionaries["Loop"] = "repetition of something is called loop"
 
 print(programming_dictionaries)
+
+
+#creating an empty dictionary
+
+empty_dictionary = {}
+
+# wipe previous dictionary
+programming_dictionaries = {}
+print(programming_dictionaries)
+
+
+# loop through a dictionary
+for key in programming_dictionaries:
+    print(key)
+    print(programming_dictionaries[key])
